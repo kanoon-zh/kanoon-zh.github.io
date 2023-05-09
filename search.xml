@@ -20,6 +20,8 @@
       
         <tags>
             
+            <tag> 枚举 </tag>
+            
             <tag> 拓扑排序 </tag>
             
             <tag> dp </tag>
@@ -27,8 +29,6 @@
             <tag> 数论 </tag>
             
             <tag> 数学 </tag>
-            
-            <tag> 枚举 </tag>
             
             <tag> 图论 </tag>
             
@@ -107,9 +107,9 @@
       
         <tags>
             
-            <tag> 枚举 </tag>
-            
             <tag> 概率dp </tag>
+            
+            <tag> 枚举 </tag>
             
             <tag> meet in the middle </tag>
             
@@ -211,6 +211,8 @@
       
         <tags>
             
+            <tag> 枚举 </tag>
+            
             <tag> 数论 </tag>
             
             <tag> 数学 </tag>
@@ -222,8 +224,6 @@
             <tag> K叉树 </tag>
             
             <tag> 贪心 </tag>
-            
-            <tag> 枚举 </tag>
             
         </tags>
       
