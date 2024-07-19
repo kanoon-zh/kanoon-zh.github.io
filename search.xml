@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>test</title>
+      <link href="/2024/07/20/test/"/>
+      <url>/2024/07/20/test/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><br><span id="more"></span><p>TEST</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Codeforces Round 872 (Div. 2)【A - D2】</title>
       <link href="/2023/05/09/CF-1825/"/>
       <url>/2023/05/09/CF-1825/</url>
