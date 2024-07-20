@@ -4,6 +4,32 @@
   
     
     <entry>
+      <title>博客搭建过程</title>
+      <link href="/2024/07/20/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B/"/>
+      <url>/2024/07/20/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E8%BF%87%E7%A8%8B/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><br><span id="more"></span><p>主要记录一下博客搭建过程中的参考资料。</p><p>Git、Nodejs、Hexo</p><p><a href="https://blog.csdn.net/weixin_50513260/article/details/124018325">https://blog.csdn.net/weixin_50513260/article/details/124018325</a></p><p><a href="https://www.fomal.cc/posts/e593433d.html">https://www.fomal.cc/posts/e593433d.html</a></p><p>Vercel 部署、自定义域名、Butterfly 主题</p><p><a href="https://www.fomal.cc/posts/4aa2d85f.html">https://www.fomal.cc/posts/4aa2d85f.html</a></p><p>Icarus 主题</p><p><a href="https://ppoffice.github.io/hexo-theme-icarus/uncategorized/icarus%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B/">https://ppoffice.github.io/hexo-theme-icarus/uncategorized/icarus快速上手/</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>VIM</title>
+      <link href="/2024/07/20/VIM/"/>
+      <url>/2024/07/20/VIM/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><br><span id="more"></span><h2 id="文本编辑"><a class="markdownIt-Anchor" href="#文本编辑"></a> 文本编辑</h2><h3 id="快速跳转到指定文本处"><a class="markdownIt-Anchor" href="#快速跳转到指定文本处"></a> 快速跳转到指定文本处</h3><p>在命令行中使用 <code>/</code> 或 <code>?</code> 向下或向上搜索指定的字符，字符可手动输入或粘贴剪切板中的内容。</p><p>通过 <code>n</code> 或 <code>N</code> 继续原方向或反向跳转到下一个匹配到的位置。</p><p>此外还可以同时进行多个匹配（关键字）的搜索，不同匹配项之间使用 <code>\|</code> 隔开即可。只要找到满足这些匹配之一即可。如</p><p><code>/关键字1\|关键字2\|关键字3...</code></p><p><code>/the\|ab</code></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Codeforces Round 872 (Div. 2)【A - D2】</title>
       <link href="/2023/05/09/CF-1825/"/>
       <url>/2023/05/09/CF-1825/</url>
@@ -20,11 +46,11 @@
       
         <tags>
             
-            <tag> 贪心 </tag>
-            
             <tag> 枚举 </tag>
             
             <tag> 概率期望 </tag>
+            
+            <tag> 贪心 </tag>
             
             <tag> 字符串 </tag>
             
@@ -55,11 +81,11 @@
             
             <tag> dp </tag>
             
+            <tag> 枚举 </tag>
+            
             <tag> 数论 </tag>
             
             <tag> 数学 </tag>
-            
-            <tag> 枚举 </tag>
             
             <tag> 图论 </tag>
             
@@ -138,9 +164,9 @@
       
         <tags>
             
-            <tag> 枚举 </tag>
-            
             <tag> 概率dp </tag>
+            
+            <tag> 枚举 </tag>
             
             <tag> meet in the middle </tag>
             
@@ -242,19 +268,19 @@
       
         <tags>
             
+            <tag> 枚举 </tag>
+            
+            <tag> 组合数学 </tag>
+            
+            <tag> 双指针 </tag>
+            
             <tag> 数论 </tag>
             
             <tag> 数学 </tag>
             
-            <tag> 双指针 </tag>
-            
-            <tag> 组合数学 </tag>
-            
             <tag> K叉树 </tag>
             
             <tag> 贪心 </tag>
-            
-            <tag> 枚举 </tag>
             
         </tags>
       
@@ -279,9 +305,9 @@
       
         <tags>
             
-            <tag> 贪心 </tag>
-            
             <tag> bitmasks </tag>
+            
+            <tag> 贪心 </tag>
             
         </tags>
       
@@ -306,9 +332,9 @@
       
         <tags>
             
-            <tag> 数学 </tag>
-            
             <tag> 双指针 </tag>
+            
+            <tag> 数学 </tag>
             
             <tag> 贪心 </tag>
             
@@ -366,9 +392,9 @@
       
         <tags>
             
-            <tag> 双指针 </tag>
-            
             <tag> 组合数学 </tag>
+            
+            <tag> 双指针 </tag>
             
             <tag> 概率期望 </tag>
             
@@ -430,11 +456,11 @@
             
             <tag> dp </tag>
             
+            <tag> 构造 </tag>
+            
             <tag> 数论 </tag>
             
             <tag> 数学 </tag>
-            
-            <tag> 构造 </tag>
             
             <tag> 差分 </tag>
             
