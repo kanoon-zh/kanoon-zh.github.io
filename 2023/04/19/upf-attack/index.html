@@ -51,7 +51,7 @@
 <h3 id="free5gc"><a class="markdownIt-Anchor" href="#free5gc"></a> free5gc</h3>
 <h4 id="shell"><a class="markdownIt-Anchor" href="#shell"></a> shell</h4>
 <p>在 UERANSIM + free5gc 的教程中核心网主机需要执行以下四条命令，主要功能是对来自 UERANSIM 的数据包进行转发封装，使得自己成为 UERANSIM 与外网间的一个中继：</p>
-<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">sudo sysctl -w net.ipv4.ip_forward=1</span><br><span class="line">sudo iptables -t nat -A POSTROUTING -o enp0s3 -j MASQUERADE</span><br><span class="line">sudo systemctl stop ufw</span><br><span class="line">sudo iptables -I FORWARD 1 -j ACCEPT</span><br></pre></td></tr></table></figure>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> sysctl -w net.ipv4.ip_forward=1</span><br><span class="line"><span class="built_in">sudo</span> iptables -t nat -A POSTROUTING -o enp0s3 -j MASQUERADE</span><br><span class="line"><span class="built_in">sudo</span> systemctl stop ufw</span><br><span class="line"><span class="built_in">sudo</span> iptables -I FORWARD 1 -j ACCEPT</span><br></pre></td></tr></table></figure>
 <p>在第二条命令中，需要将 enp0s3 替换为系统的默认网卡，如 ubuntu 20.04 中即为 ens33 。</p>
 <h4 id="clone-upf"><a class="markdownIt-Anchor" href="#clone-upf"></a> clone UPF</h4>
 <p>进行断网和劫持攻击需要克隆一台新的虚拟机来运行 UPF 网元，本机的环回地址无法执行以上攻击。</p>
